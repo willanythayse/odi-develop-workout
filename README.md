@@ -1,4 +1,4 @@
-# Oracle Data Integrator (ODI) 12c   Avançado
+# Oracle Data Integrator (ODI) 12c Advanced
 Descrevendo componentes do ODI, mostrando suas funcionaidades com exemplos. 
 Utlizar para as transações, Banco de Dados Oracle e Arquivos delimitados.
 ## Installation
