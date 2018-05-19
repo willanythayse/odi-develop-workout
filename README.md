@@ -4,7 +4,7 @@ Utlizar para as transações, Banco de Dados Oracle e Arquivos delimitados.
 ## Installation
 Para instalação "Oracle Data Integrator (ODI).pptx"
 ## Usage
-Para utilização da ferramentam ""
+Para utilização da ferramentam "Oracle Data Integrator (ODI).pptx"
 ## Pre-Requisito
 1. JDK
 2. Oracle Database
