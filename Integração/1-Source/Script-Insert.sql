@@ -1,7 +1,7 @@
 ---------- ---------- --------- ---------- ---------- ----------
 --INSERT 	EMP
 ---------- ---------- --------- ---------- ---------- ----------                               
-INSERT INTO EMP VALUES (7369,'SMITH CLERK',7902,'17/12/1980',800,'',50  ,'DESC-36-9');
+INSERT INTO EMP VALUES (7369,'SMITH CLERK',7902,'17/12/1980',800,'',50,'DESC-36-9');
 INSERT INTO EMP VALUES (7499,'ALLEN SALESMAN',7698,'20/02/1981',1600,300,40,'DESC-49-9');
 INSERT INTO EMP VALUES (7521,'WARD SALESMAN',7698,'22/02/1981',1250,500,40,'DESC-52-1');
 INSERT INTO EMP VALUES (7566,'JONES MANAGER',7839,'02/04/1981',2975,'',20,'DESC-56-6');
