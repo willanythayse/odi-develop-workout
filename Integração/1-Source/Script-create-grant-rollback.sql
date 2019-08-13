@@ -1,3 +1,8 @@
+---------------------------------------- U S E R S --------------------------------------------
+CREATE USER ODI_WORK_REP IDENTIFIED BY ODI_WORK_REP;
+CREATE USER ODI_MASTER_REP IDENTIFIED BY ODI_MASTER_REP;
+
+
 ---------------------------------------- S E Q U E N C E --------------------------------------------
 CREATE SEQUENCE SEQ_EMP 
  START WITH     1
@@ -51,10 +56,20 @@ CREATE TABLE ODI_EMP (
 );
 
 -------------------------------------- G R A N T ' s ---------------------------------------------
+------------------- U S E R ---------------------
+GRANT CONNECT TO ODI_MASTER_REP;
+GRANT CREATE SESSION GRANT ANY PRIVILEGE TO ODI_MASTER_REP;
+GRANT UNLIMITED TABLESPACE TO ODI_MASTER_REP;
+GRANT CONNECT TO ODI_WORK_REP;
+GRANT CREATE SESSION GRANT ANY PRIVILEGE TO ODI_WORK_REP;
+GRANT UNLIMITED TABLESPACE TO ODI_WORK_REP;
+
+------------------- T A B L E ---------------------
 GRANT SELECT, INSERT, UPDATE, DELETE ON SEQ_EMP TO ODI_MASTER;
 GRANT SELECT, INSERT, UPDATE, DELETE ON DEPARTAMENTO TO ODI_MASTER;
 GRANT SELECT, INSERT, UPDATE, DELETE ON EMP TO ODI_MASTER;
 GRANT SELECT, INSERT, UPDATE, DELETE ON ODI_EMP TO ODI_MASTER;
+
 
 -------------------------------------- R O L L B A C K ---------------------------------------------
 DROP TABLE DEPARTAMENTO;
