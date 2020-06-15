@@ -52,7 +52,8 @@ CREATE TABLE ODI_EMP (
 	DESC_EMP	VARCHAR2(400),
 	NVEMP		VARCHAR2(100),
 	DNAME	 	VARCHAR2(100),
-	DATACARGA	DATE
+	DT_CRI_CARGA	DATE,
+	DT_ALT_CARGA	DATE
 );
 
 -------------------------------------- G R A N T ' s ---------------------------------------------
